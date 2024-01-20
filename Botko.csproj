@@ -11,4 +11,10 @@
     <PackageReference Include="Discord.Net" Version="3.13.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="BotFiles\config\config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
